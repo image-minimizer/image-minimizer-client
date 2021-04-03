@@ -21,7 +21,7 @@ function Tasks() {
 
   return (
     <ul>
-      {tasks.map( (task) =>
+      {tasks.map((task) =>
         <li className={`status-${task.status}`} key={task.id}>
           <details>
             <summary>
